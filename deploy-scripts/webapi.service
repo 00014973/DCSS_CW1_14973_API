@@ -3,7 +3,7 @@ Description=Starts and stops the OpenVPN service ID 14973
 
 [Service]
 WorkingDirectory=/var/www/
-ExecStart=/usr/bin/dotnet /var/www/DSCC_CW1_14973_API.dll
+ExecStart=/usr/bin/dotnet /var/www/DCSS_CW1_14973.dll
 Restart=always
 
 RestartSec=10
